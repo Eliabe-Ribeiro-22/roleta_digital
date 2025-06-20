@@ -10,7 +10,7 @@
 		
 	</script>
 	<main>
-		<form action="./paginas/roleta.php" method="POST" onsubmit="return verifica()">
+		<form action="" method="POST" onsubmit="return verifica()">
 			<img src="./assets/img/roleta.img" alt="Imagem de Roleta">
 			<button name="roleta">Girar Roleta</button>
 		</form>
