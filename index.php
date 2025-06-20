@@ -6,14 +6,12 @@
 	<title>Roleta Digital</title>
 </head>
 <body>
-	<script type="text/javascript">
-		function teste(){
-			alert("Quanto será que vai ser o aluguel? Aguarde um momento")
-		}
+	<script type="text/javascript" src="./assets/js/index.js">
+		
 	</script>
 	<main>
-		<form action="./roleta.php" method="POST" onsubmit="return teste()">
-			<img src="./roleta.img" alt="Imagem de Roleta">
+		<form action="./paginas/roleta.php" method="POST" onsubmit="return verifica()">
+			<img src="./assets/img/roleta.img" alt="Imagem de Roleta">
 			<button name="roleta">Girar Roleta</button>
 		</form>
 		
